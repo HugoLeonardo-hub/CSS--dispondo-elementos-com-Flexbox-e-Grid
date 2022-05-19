@@ -8,16 +8,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/estilo.css">
-    ">
+    <link rel="stylesheet" href="../flex-e-grid-main/assets/css/reset.css">
+    <link rel="stylesheet" href="../flex-e-grid-main/assets/css/estilo.css">
+    
 
     <title>HZC home</title>
 </head>
 <body>
-    <header>
-        <button>menu</button>
+
+    <header class="cabecalho">
+        <button class="cabecalho__menu">menu</button>
+        <img src="assets/img/logo.svg" alt="logotipo HZC" class="cabecalho__logo">
+        <button class="cabecalho__notificacao">notificação</button>
     </header>
     
+    <script>
+        function validaNumero(num){
+    if (!num) return “Envie um número válido!”;
+  
+    return num;
+}
+
+validaNumero();
+    </script>
 </body>
 </html>
