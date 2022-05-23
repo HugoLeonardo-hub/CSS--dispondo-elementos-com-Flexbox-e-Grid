@@ -17,19 +17,21 @@
 <body>
 
     <header class="cabecalho">
-        <button class="cabecalho__menu">menu</button>
+        <button class="cabecalho__menu" aria-label="menu"><i></i></button>
         <img src="assets/img/logo.svg" alt="logotipo HZC" class="cabecalho__logo">
-        <button class="cabecalho__notificacao">notificação</button>
+        <button class="cabecalho__notificacao" aria-label="notificação"><i></i></button>
     </header>
     
-    <script>
-        function validaNumero(num){
-    if (!num) return “Envie um número válido!”;
-  
-    return num;
-}
+    <nav class="menu-lateral">
+        <img src="assets/img/logo.svg" alt="" class="menu-lateral__logo">
+        <a href="#" class="menu-lateral__link">Início</a>
+        <a href="#" class="menu-lateral__link">Vídeos</a>
+        <a href="#" class="menu-lateral__link">Picos</a>
+        <a href="#" class="menu-lateral__link">Integrantes</a>
+        <a href="#" class="menu-lateral__link">Camisas</a>
+        <a href="#" class="menu-lateral__link">Pinturas</a>
+    </nav>
 
-validaNumero();
-    </script>
+    
 </body>
 </html>
